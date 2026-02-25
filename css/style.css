@@ -1,0 +1,34 @@
+/**
+ * @file
+ * Global styles for the dreamSteps theme.
+ */
+
+:root {
+  /* Color variables with ds- prefix */
+  --ds-color-primary: #007bff;
+  --ds-color-secondary: #6c757d;
+  --ds-color-success: #28a745;
+  --ds-color-danger: #dc3545;
+  --ds-color-warning: #ffc107;
+  --ds-color-info: #17a2b8;
+  --ds-color-light: #f8f9fa;
+  --ds-color-dark: #343a40;
+
+  /* Spacing variables */
+  --ds-spacing-xs: 0.25rem;
+  --ds-spacing-sm: 0.5rem;
+  --ds-spacing-md: 1rem;
+  --ds-spacing-lg: 1.5rem;
+  --ds-spacing-xl: 3rem;
+
+  /* Typography variables */
+  --ds-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --ds-font-size-base: 1rem;
+  --ds-line-height-base: 1.5;
+}
+
+body {
+  font-family: var(--ds-font-family-base);
+  font-size: var(--ds-font-size-base);
+  line-height: var(--ds-line-height-base);
+}

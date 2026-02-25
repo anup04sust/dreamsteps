@@ -1,0 +1,18 @@
+name: 'dreamSteps'
+description: 'DreamSteps – Launch beautiful, responsive Drupal sites instantly'
+type: theme
+core_version_requirement: ^11
+package: 'dreamSteps'
+
+libraries:
+  - dreamsteps/global
+
+dependencies:
+  - dreamsteps_installer:dreamsteps_installer
+
+base theme: false
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
+logo: 'images/logo.svg'
